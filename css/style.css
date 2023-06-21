@@ -1,0 +1,122 @@
+body {
+
+    font-family: cursive;
+    color: 
+
+
+
+}
+
+.img-2{
+    background: #FD4D5A;
+}
+
+
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: serif;
+    text-decoration-color: white;
+
+
+}
+
+.banner-heading {
+    animation-name: anim;
+    animation-duration: 2s;
+}
+
+.banner-par {
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+
+
+}
+
+
+@keyframes anim {
+    0% {
+        transform: translate(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+
+}
+
+.mission{
+    background-color:#151f20 ;
+    
+}
+.underline{
+    width: 200px;
+    border: 3px solid #eee;
+    margin: auto;
+}
+
+
+
+
+.navmenu{
+    
+    padding: 30px;
+}
+
+.menu-item{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.menu-item:hover{
+    color:black;
+}
+
+.underline-dark{
+    width: 100px;
+    border: 2px solid  dimgray;
+    margin: auto;
+    
+
+}
+.customer{
+    background-color:#151f20 ;
+
+}
+
+.card-item{
+    border-bottom: 1px solid  #eee;
+    width: 30%;
+    margin: auto;
+    
+}
+
+.btn-2:hover{
+    color: darkblue;
+    
+    
+}
+
+.form-control placeholder{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
